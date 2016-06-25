@@ -7,14 +7,16 @@ A small python script which lets you:
 
 #Grabbing The Cookie
 *We need a user identification cookie , which helps us make requests to the Hike API server. One can use any packet capture utility and find the following request -
-```GET /v1/account/profile/<Phone NUmber> HTTP/1.1
+```
+GET /v1/account/profile/<Phone NUmber> HTTP/1.1
 retry-header: 1
 User-Agent: android-4.2.7.83
 Cookie: user=***********; UID=*****-***
 Cache-Control: no-transform
 Host: api.im.hike.in
 Connection: Keep-Alive
-Accept-Encoding: gzip```
+Accept-Encoding: gzip
+```
 
 * we need the 'User' Cookie
 

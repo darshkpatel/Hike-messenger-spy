@@ -24,6 +24,6 @@ Accept-Encoding: gzip
 * Replace the cookie we captured in place of the asteriks on line 6 in the PoC.py
 
 #Using the program 
-* `Python PoC.py'
+* `Python PoC.py`
 * Enter Phone Number 
 * Magic !
